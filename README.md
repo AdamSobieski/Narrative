@@ -44,13 +44,13 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 >  
 > <urn:event:123> a n:NarrativeInterpretionEvent ;
 >     n:agent <urn:char:6> ;
->     n:patient <urn:prop:126> .
-> <urn:event:123> n:causesPatch
->     <cid:part2>,
->     <cid:part3>,
->     <cid:part4>,
->     <cid:part5>,
->     <cid:part6> .
+>     n:patient <urn:prop:126> ;
+>     n:causesPatch
+>         <cid:part2>,
+>         <cid:part3>,
+>         <cid:part4>,
+>         <cid:part5>,
+>         <cid:part6> .
 > 
 > --example-boundary
 > 
