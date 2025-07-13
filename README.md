@@ -61,34 +61,29 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > @prefix n: <http://narratology.org/#> .
 > @prefix ex: <http://example.org/#> .
 >  
-> Add { <ex:event123> n:causedBy <ex:event122> . }
+> Add { <ex:event123> n:causedBy <ex:action29> . }
 > 
 > --boundary-example
 > 
 > Content-ID: <part3>
 > Content-Type: text/ldpatch
-> Content-Description: Scene Contents Layer
+> Content-Description: Scene Layer
 > 
 > @prefix n: <http://narratology.org/#> .
 > @prefix ex: <http://example.org/#> .
 >  
-> Remove { <ex:scene114> n:containsProp <ex:prop126> . }
+> Remove { <ex:scene114> n:contains <ex:prop126> . }
 > 
 > --boundary-example
 > 
 > Content-ID: <part4>
 > Content-Type: text/ldpatch
-> Content-Description: Scene Prop Description Layer
+> Content-Description: Props Layer
 > 
 > @prefix n: <http://narratology.org/#> .
 > @prefix ex: <http://example.org/#> .
 >  
-> Remove
-> {
->     <ex:prop125> n:description "The bowl is filled with soup." ;
->         n:contains <ex:prop126> .
-> }
-> Add { <ex:prop125> n:description "The bowl is empty." . }
+> Remove { <ex:prop125> n:contains <ex:prop126> . }
 > 
 > --boundary-example
 > 
