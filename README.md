@@ -20,15 +20,28 @@ Inspired by [uses of Multipurpose Internet Mail Extensions (MIME) with respect t
 > Content-Type: text/turtle
 > Content-Description: Message Metadata
 > 
-> ...
-> 
+> @prefix dc: <http://purl.org/dc/terms/> .
+> @prefix n: <http://narratology.org/#> .
+> @prefix ex: <http://example.org/#> .
+>  
+> <mid:12345678> a n:NarrativeInterpretationEventMessage ;
+>     dc:hasPart <cid:metadata>,
+>         <cid:part1>,
+>         <cid:part2>,
+>         <cid:part3>,
+>         <cid:part4>,
+>         <cid:part5> .
+>
 > --example-boundary
 > 
 > Content-ID: <part1>
 > Content-Type: text/turtle
 > Content-Description: Event Data
 > 
-> <urn:event:123> a n:InterpretedEvent ;
+> @prefix n: <http://narratology.org/#> .
+> @prefix ex: <http://example.org/#> .
+>  
+> <urn:event:123> a n:NarrativeInterpretionEvent ;
 >     <urn:event:123> n:actor <urn:char:6> .
 > <urn:event:123> n:causesPatch
 >     <cid:part2>,
@@ -43,6 +56,9 @@ Inspired by [uses of Multipurpose Internet Mail Extensions (MIME) with respect t
 > Content-Type: text/ldpatch
 > Content-Description: Interevent Causal Layer
 > 
+> @prefix n: <http://narratology.org/#> .
+> @prefix ex: <http://example.org/#> .
+>  
 > Add { <urn:event:123> n:causedBy <urn:event:122> . }
 > 
 > --example-boundary
@@ -51,6 +67,9 @@ Inspired by [uses of Multipurpose Internet Mail Extensions (MIME) with respect t
 > Content-Type: text/ldpatch
 > Content-Description: Scene Contents Layer
 > 
+> @prefix n: <http://narratology.org/#> .
+> @prefix ex: <http://example.org/#> .
+>  
 > Remove { <urn:scene:114> n:containsProp <urn:prop:126> . }
 > 
 > --example-boundary
@@ -59,6 +78,9 @@ Inspired by [uses of Multipurpose Internet Mail Extensions (MIME) with respect t
 > Content-Type: text/ldpatch
 > Content-Description: Scene Prop Layer
 > 
+> @prefix n: <http://narratology.org/#> .
+> @prefix ex: <http://example.org/#> .
+>  
 > Remove
 > {
 >     <urn:prop:125> n:description "The bowl is filled with soup." ;
@@ -72,6 +94,9 @@ Inspired by [uses of Multipurpose Internet Mail Extensions (MIME) with respect t
 > Content-Type: text/ldpatch
 > Content-Description: Intrapersonal Character Modeling Layer
 > 
+> @prefix n: <http://narratology.org/#> .
+> @prefix ex: <http://example.org/#> .
+>  
 > Remove { <urn:char:6> n:hasState ex:Hungry . }
 > Add { <urn:char:6> n:hasState ex:Satiated . }
 > 
@@ -81,6 +106,9 @@ Inspired by [uses of Multipurpose Internet Mail Extensions (MIME) with respect t
 > Content-Type: text/ldpatch
 > Content-Description: Interpersonal Social Modeling Layer
 > 
+> @prefix n: <http://narratology.org/#> .
+> @prefix ex: <http://example.org/#> .
+>  
 > --example-boundary--
 > ```
 > </details>
