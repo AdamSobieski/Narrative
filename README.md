@@ -113,3 +113,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > --example-boundary--
 > ```
 > </details>
+
+## Related Work
+
+* [IETF Structured Email Working Group](https://datatracker.ietf.org/group/sml/about/)
