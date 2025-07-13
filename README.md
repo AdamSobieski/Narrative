@@ -114,6 +114,14 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > ```
 > </details>
 
+## See Also
+
+* [Action](https://en.wikipedia.org/wiki/Action_(philosophy))
+* [Causality](https://en.wikipedia.org/wiki/Causality)
+* [Change](https://en.wikipedia.org/wiki/Impermanence)
+* [Event](https://en.wikipedia.org/wiki/Event_(philosophy))
+* [Narrative](https://en.wikipedia.org/wiki/Narrative)
+
 ## Related Work
 
 * [IETF Structured Email Working Group](https://datatracker.ietf.org/group/sml/about/)
