@@ -43,7 +43,8 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > @prefix ex: <http://example.org/#> .
 >  
 > <urn:event:123> a n:NarrativeInterpretionEvent ;
->     <urn:event:123> n:actor <urn:char:6> .
+>     n:agent <urn:char:6> ;
+>     n:patient <urn:prop:126> .
 > <urn:event:123> n:causesPatch
 >     <cid:part2>,
 >     <cid:part3>,
