@@ -33,7 +33,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 >         <cid:part5>,
 >         <cid:part6> .
 >
-> --example-boundary
+> --boundary-example
 > 
 > Content-ID: <part1>
 > Content-Type: text/turtle
@@ -51,7 +51,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 >         <cid:part5>,
 >         <cid:part6> .
 > 
-> --example-boundary
+> --boundary-example
 > 
 > Content-ID: <part2>
 > Content-Type: text/ldpatch
@@ -62,7 +62,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 >  
 > Add { <urn:event:123> n:causedBy <urn:event:122> . }
 > 
-> --example-boundary
+> --boundary-example
 > 
 > Content-ID: <part3>
 > Content-Type: text/ldpatch
@@ -73,7 +73,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 >  
 > Remove { <urn:scene:114> n:containsProp <urn:prop:126> . }
 > 
-> --example-boundary
+> --boundary-example
 > 
 > Content-ID: <part4>
 > Content-Type: text/ldpatch
@@ -89,7 +89,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > }
 > Add { <urn:prop:125> n:description "The bowl is empty." . }
 > 
-> --example-boundary
+> --boundary-example
 > 
 > Content-ID: <part5>
 > Content-Type: text/ldpatch
@@ -101,7 +101,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > Remove { <urn:char:6> n:hasState ex:Hungry . }
 > Add { <urn:char:6> n:hasState ex:Satiated . }
 > 
-> --example-boundary
+> --boundary-example
 > 
 > Content-ID: <part6>
 > Content-Type: text/ldpatch
@@ -110,7 +110,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > @prefix n: <http://narratology.org/#> .
 > @prefix ex: <http://example.org/#> .
 >  
-> --example-boundary--
+> --boundary-example--
 > ```
 > </details>
 
