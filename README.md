@@ -44,8 +44,6 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > @prefix ex: <http://example.org/#> .
 >  
 > <ex:event123> a n:NarrativeInterpretionEvent ;
->     n:agent <ex:char6> ;
->     n:patient <ex:prop126> ;
 >     n:causesPatch <cid:part2>,
 >         <cid:part3>,
 >         <cid:part4>,
