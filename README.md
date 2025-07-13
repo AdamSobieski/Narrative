@@ -2,7 +2,7 @@
 
 ### Multipurpose Internet Mail Extensions
 
-Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](https://en.wikipedia.org/wiki/MIME) to the [computational representation of argumentation](https://github.com/AdamSobieski/Argumentation), could MIME similarly be of use for the computational representation of narratives, events, and changes or updates to [situation models](https://en.wikipedia.org/wiki/Narrative_paradigm#Situation_models)?
+Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](https://en.wikipedia.org/wiki/MIME) to the [computational representation of arguments](https://github.com/AdamSobieski/Argumentation), could MIME similarly be of use for the computational representation of narratives, events, and changes or updates to [situation models](https://en.wikipedia.org/wiki/Narrative_paradigm#Situation_models)?
 
 > [!TIP]
 > <details open>
