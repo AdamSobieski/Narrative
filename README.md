@@ -42,9 +42,9 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > @prefix n: <http://narratology.org/#> .
 > @prefix ex: <http://example.org/#> .
 >  
-> <urn:event:123> a n:NarrativeInterpretionEvent ;
->     n:agent <urn:char:6> ;
->     n:patient <urn:prop:126> ;
+> <ex:event123> a n:NarrativeInterpretionEvent ;
+>     n:agent <ex:char6> ;
+>     n:patient <ex:prop126> ;
 >     n:causesPatch <cid:part2>,
 >         <cid:part3>,
 >         <cid:part4>,
@@ -60,7 +60,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > @prefix n: <http://narratology.org/#> .
 > @prefix ex: <http://example.org/#> .
 >  
-> Add { <urn:event:123> n:causedBy <urn:event:122> . }
+> Add { <ex:event123> n:causedBy <ex:event122> . }
 > 
 > --boundary-example
 > 
@@ -71,7 +71,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > @prefix n: <http://narratology.org/#> .
 > @prefix ex: <http://example.org/#> .
 >  
-> Remove { <urn:scene:114> n:containsProp <urn:prop:126> . }
+> Remove { <ex:scene114> n:containsProp <ex:prop126> . }
 > 
 > --boundary-example
 > 
@@ -84,10 +84,10 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 >  
 > Remove
 > {
->     <urn:prop:125> n:description "The bowl is filled with soup." ;
->         n:contains <urn:prop:126> .
+>     <ex:prop125> n:description "The bowl is filled with soup." ;
+>         n:contains <ex:prop126> .
 > }
-> Add { <urn:prop:125> n:description "The bowl is empty." . }
+> Add { <ex:prop125> n:description "The bowl is empty." . }
 > 
 > --boundary-example
 > 
@@ -98,8 +98,8 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > @prefix n: <http://narratology.org/#> .
 > @prefix ex: <http://example.org/#> .
 >  
-> Remove { <urn:char:6> n:hasState ex:Hungry . }
-> Add { <urn:char:6> n:hasState ex:Satiated . }
+> Remove { <ex:char6> n:hasState ex:Hungry . }
+> Add { <ex:char6> n:hasState ex:Satiated . }
 > 
 > --boundary-example
 > 
