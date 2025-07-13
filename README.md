@@ -30,7 +30,8 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 >         <cid:part2>,
 >         <cid:part3>,
 >         <cid:part4>,
->         <cid:part5> .
+>         <cid:part5>,
+>         <cid:part6> .
 >
 > --example-boundary
 > 
