@@ -77,7 +77,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > 
 > Content-ID: <part4>
 > Content-Type: text/ldpatch
-> Content-Description: Scene Prop Layer
+> Content-Description: Scene Prop Description Layer
 > 
 > @prefix n: <http://narratology.org/#> .
 > @prefix ex: <http://example.org/#> .
