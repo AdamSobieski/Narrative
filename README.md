@@ -14,7 +14,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > Content-Type: multipart/related; boundary="boundary-example"
 > Content-Metadata: <metadata>
 > 
-> --example-boundary
+> --boundary-example
 > 
 > Content-ID: <metadata>
 > Content-Type: text/turtle
