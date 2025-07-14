@@ -23,7 +23,6 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > 
 > @prefix dc: <http://purl.org/dc/terms/> .
 > @prefix n: <http://narratology.org/#> .
-> @prefix ex: <http://example.org/#> .
 >  
 > <mid:12345678> a n:NarrativeInterpretationEventMessage ;
 >     dc:hasPart <cid:metadata>,
