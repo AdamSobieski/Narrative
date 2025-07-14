@@ -81,7 +81,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > @prefix n: <http://narratology.org/#> .
 > @prefix ex: <http://example.org/#> .
 >  
-> Remove { <ex:prop125> n:contains <ex:prop126> . }
+> Remove { <ex:prop125> ex:contains <ex:prop126> . }
 > 
 > --boundary-example
 > 
