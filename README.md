@@ -45,8 +45,8 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > 
 > @prefix n: <http://narratology.org/#> .
 > @prefix ex: <http://example.org/#> .
->  
-> <ex:event123> a n:StoryEvent ;
+> 
+> ex:event123 a n:StoryEvent ;
 >     n:causesPatch <cid:part2>,
 >         <cid:part3>,
 >         <cid:part4>,
