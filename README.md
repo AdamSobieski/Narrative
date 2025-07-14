@@ -86,7 +86,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > 
 > Content-ID: <part4>
 > Content-Type: text/ldpatch
-> Content-Description: Character Modeling Layer (States and Traits)
+> Content-Description: Intrapersonal Character Modeling Layer (States and Traits)
 > 
 > @prefix n: <http://narratology.org/#> .
 > @prefix ex: <http://example.org/#> .
