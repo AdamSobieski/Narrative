@@ -202,6 +202,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 * [Plot](https://en.wikipedia.org/wiki/Plot_(narrative))
 * [Process](https://en.wikipedia.org/wiki/Process)
 * [Process Philosophy](https://en.wikipedia.org/wiki/Process_philosophy)
+* [Social Relation](https://en.wikipedia.org/wiki/Social_relation)
 * [Theme](https://en.wikipedia.org/wiki/Theme_(narrative))
 
 ## Related Work
