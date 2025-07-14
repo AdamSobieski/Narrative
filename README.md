@@ -109,7 +109,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > @prefix n: <http://narratology.org/#> .
 > @prefix ex: <http://example.org/#> .
 >
-> Remove { ex:char6 ex:intends ex:action29 . }
+> Remove { ex:char6 n:intends ex:action29 . }
 > 
 > --boundary-example
 >
