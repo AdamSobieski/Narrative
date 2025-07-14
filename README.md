@@ -66,7 +66,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > @prefix n: <http://narratology.org/#> .
 > @prefix ex: <http://example.org/#> .
 >  
-> Add { <ex:event123> n:causedBy <ex:action29> . }
+> Add { ex:event123 n:causedBy ex:action29 . }
 > 
 > --boundary-example
 > 
@@ -77,7 +77,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > @prefix n: <http://narratology.org/#> .
 > @prefix ex: <http://example.org/#> .
 >  
-> Remove { <ex:prop125> ex:contains <ex:prop126> . }
+> Remove { ex:prop125 ex:contains ex:prop126 . }
 > 
 > --boundary-example
 > 
@@ -88,8 +88,8 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > @prefix n: <http://narratology.org/#> .
 > @prefix ex: <http://example.org/#> .
 >  
-> Remove { <ex:char6> n:hasState ex:Hungry . }
-> Add { <ex:char6> n:hasState ex:Satiated . }
+> Remove { ex:char6 n:hasState ex:Hungry . }
+> Add { ex:char6 n:hasState ex:Satiated . }
 > 
 > --boundary-example
 >
@@ -109,6 +109,8 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > @prefix n: <http://narratology.org/#> .
 > @prefix ex: <http://example.org/#> .
 >
+> Remove { ex:char6 n:desires ex:action29 . }
+> 
 > --boundary-example
 >
 > Content-ID: <part7>
@@ -118,6 +120,8 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > @prefix n: <http://narratology.org/#> .
 > @prefix ex: <http://example.org/#> .
 >
+> Remove { ex:char6 ex:intends ex:action29 . }
+> 
 > --boundary-example
 >
 > Content-ID: <part8>
@@ -192,9 +196,11 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 ## See Also
 
 * [Action](https://en.wikipedia.org/wiki/Action_(philosophy))
+* [Belief](https://en.wikipedia.org/wiki/Belief)
 * [Causality](https://en.wikipedia.org/wiki/Causality)
 * [Change](https://en.wikipedia.org/wiki/Impermanence)
 * [Constructivism](https://en.wikipedia.org/wiki/Constructivism_(psychological_school))
+* [Desire](https://en.wikipedia.org/wiki/Desire)
 * [Event](https://en.wikipedia.org/wiki/Event_(philosophy))
 * [Goal](https://en.wikipedia.org/wiki/Goal)
 * [Intention](https://en.wikipedia.org/wiki/Intention)
