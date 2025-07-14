@@ -34,8 +34,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 >         <cid:part6>,  
 >         <cid:part7>,
 >         <cid:part8>,  
->         <cid:part9>,
->         <cid:part10> .
+>         <cid:part9> .
 >
 > --boundary-example
 > 
@@ -54,8 +53,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 >         <cid:part6>,  
 >         <cid:part7>,
 >         <cid:part8>,  
->         <cid:part9>,
->         <cid:part10> .
+>         <cid:part9> .
 > 
 > --boundary-example
 > 
@@ -86,18 +84,6 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > 
 > Content-ID: <part4>
 > Content-Type: text/ldpatch
-> Content-Description: Intrapersonal Modeling Layer (States and Traits)
-> 
-> @prefix n: <http://narratology.org/#> .
-> @prefix ex: <http://example.org/#> .
->  
-> Remove { ex:char6 n:hasState ex:Hungry . }
-> Add { ex:char6 n:hasState ex:Satiated . }
-> 
-> --boundary-example
->
-> Content-ID: <part5>
-> Content-Type: text/ldpatch
 > Content-Description: Intrapersonal Modeling Layer (Beliefs)
 > 
 > @prefix n: <http://narratology.org/#> .
@@ -105,7 +91,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 >
 > --boundary-example
 >
-> Content-ID: <part6>
+> Content-ID: <part5>
 > Content-Type: text/ldpatch
 > Content-Description: Intrapersonal Modeling Layer (Desires)
 > 
@@ -116,7 +102,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > 
 > --boundary-example
 >
-> Content-ID: <part7>
+> Content-ID: <part6>
 > Content-Type: text/ldpatch
 > Content-Description: Intrapersonal Modeling Layer (Intentions)
 > 
@@ -127,16 +113,19 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > 
 > --boundary-example
 >
-> Content-ID: <part8>
+> Content-ID: <part7>
 > Content-Type: text/ldpatch
 > Content-Description: Intrapersonal Modeling Layer (Emotions and Moods)
 > 
 > @prefix n: <http://narratology.org/#> .
 > @prefix ex: <http://example.org/#> .
 >
+> Remove { ex:char6 n:hasState ex:Hungry . }
+> Add { ex:char6 n:hasState ex:Satiated . }
+> 
 > --boundary-example
 >
-> Content-ID: <part9>
+> Content-ID: <part8>
 > Content-Type: text/ldpatch
 > Content-Description: Intrapersonal Modeling Layer (Thoughts)
 > 
@@ -145,7 +134,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 >
 > --boundary-example
 > 
-> Content-ID: <part10>
+> Content-ID: <part9>
 > Content-Type: text/ldpatch
 > Content-Description: Interpersonal Modeling Layer (Social Dynamics)
 > 
