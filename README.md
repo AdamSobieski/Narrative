@@ -145,6 +145,7 @@ The following table, also from Graesser, Singer, and Trabasso (1994), presents s
 * [Change](https://en.wikipedia.org/wiki/Impermanence)
 * [Constructivism](https://en.wikipedia.org/wiki/Constructivism_(psychological_school))
 * [Event](https://en.wikipedia.org/wiki/Event_(philosophy))
+* [Goal](https://en.wikipedia.org/wiki/Goal)
 * [Narrative](https://en.wikipedia.org/wiki/Narrative)
 * [Process](https://en.wikipedia.org/wiki/Process)
 * [Process Philosophy](https://en.wikipedia.org/wiki/Process_philosophy)
