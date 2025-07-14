@@ -2,7 +2,7 @@
 
 ### Multipurpose Internet Mail Extensions
 
-Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](https://en.wikipedia.org/wiki/MIME) to the [computational representation of arguments](https://github.com/AdamSobieski/Argumentation), could multipart MIME messages similarly be of use for the computational representation of narratives, actions, events, and updates to the [situation models](https://en.wikipedia.org/wiki/Narrative_paradigm#Situation_models) of modeled and simulated readers?
+Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](https://en.wikipedia.org/wiki/MIME) to the [computational representation of arguments](https://github.com/AdamSobieski/Argumentation), could multipart MIME messages similarly be of use for the computational representation of narratives, actions, events, processes, and updates to the [situation models](https://en.wikipedia.org/wiki/Narrative_paradigm#Situation_models) of modeled and simulated readers?
 
 > [!TIP]
 > This example shows a model of a story event (`ex:event123`) involving a story character (`ex:char6`) consuming soup (`ex:prop126`)  from a bowl (`ex:prop125`).
@@ -114,6 +114,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 * [Change](https://en.wikipedia.org/wiki/Impermanence)
 * [Event](https://en.wikipedia.org/wiki/Event_(philosophy))
 * [Narrative](https://en.wikipedia.org/wiki/Narrative)
+* [Process](https://en.wikipedia.org/wiki/Process)
 * [Process Philosophy](https://en.wikipedia.org/wiki/Process_philosophy)
 
 ## Related Work
