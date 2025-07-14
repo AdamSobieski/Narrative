@@ -86,7 +86,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > 
 > Content-ID: <part4>
 > Content-Type: text/ldpatch
-> Content-Description: Intrapersonal Character Modeling Layer (States and Traits)
+> Content-Description: Intrapersonal Modeling Layer (States and Traits)
 > 
 > @prefix n: <http://narratology.org/#> .
 > @prefix ex: <http://example.org/#> .
@@ -98,7 +98,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 >
 > Content-ID: <part5>
 > Content-Type: text/ldpatch
-> Content-Description: Intrapersonal Character Modeling Layer (Beliefs)
+> Content-Description: Intrapersonal Modeling Layer (Beliefs)
 > 
 > @prefix n: <http://narratology.org/#> .
 > @prefix ex: <http://example.org/#> .
@@ -107,7 +107,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 >
 > Content-ID: <part6>
 > Content-Type: text/ldpatch
-> Content-Description: Intrapersonal Character Modeling Layer (Desires)
+> Content-Description: Intrapersonal Modeling Layer (Desires)
 > 
 > @prefix n: <http://narratology.org/#> .
 > @prefix ex: <http://example.org/#> .
@@ -118,7 +118,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 >
 > Content-ID: <part7>
 > Content-Type: text/ldpatch
-> Content-Description: Intrapersonal Character Modeling Layer (Intentions)
+> Content-Description: Intrapersonal Modeling Layer (Intentions)
 > 
 > @prefix n: <http://narratology.org/#> .
 > @prefix ex: <http://example.org/#> .
@@ -129,7 +129,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 >
 > Content-ID: <part8>
 > Content-Type: text/ldpatch
-> Content-Description: Intrapersonal Character Modeling Layer (Emotions and Moods)
+> Content-Description: Intrapersonal Modeling Layer (Emotions and Moods)
 > 
 > @prefix n: <http://narratology.org/#> .
 > @prefix ex: <http://example.org/#> .
@@ -138,7 +138,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 >
 > Content-ID: <part9>
 > Content-Type: text/ldpatch
-> Content-Description: Intrapersonal Character Modeling Layer (Thoughts)
+> Content-Description: Intrapersonal Modeling Layer (Thoughts)
 > 
 > @prefix n: <http://narratology.org/#> .
 > @prefix ex: <http://example.org/#> .
