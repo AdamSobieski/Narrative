@@ -149,6 +149,7 @@ The following table, also from Graesser, Singer, and Trabasso (1994), presents s
 * [Narrative](https://en.wikipedia.org/wiki/Narrative)
 * [Process](https://en.wikipedia.org/wiki/Process)
 * [Process Philosophy](https://en.wikipedia.org/wiki/Process_philosophy)
+* [Theme](https://en.wikipedia.org/wiki/Theme_(narrative))
 
 ## Related Work
 
