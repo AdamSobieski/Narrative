@@ -157,6 +157,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 * [Goal](https://en.wikipedia.org/wiki/Goal)
 * [Intention](https://en.wikipedia.org/wiki/Intention)
 * [Narrative](https://en.wikipedia.org/wiki/Narrative)
+* [Plot](https://en.wikipedia.org/wiki/Plot_(narrative))
 * [Process](https://en.wikipedia.org/wiki/Process)
 * [Process Philosophy](https://en.wikipedia.org/wiki/Process_philosophy)
 * [Theme](https://en.wikipedia.org/wiki/Theme_(narrative))
