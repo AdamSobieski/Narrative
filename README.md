@@ -24,7 +24,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > @prefix dc: <http://purl.org/dc/terms/> .
 > @prefix n: <http://narratology.org/#> .
 >  
-> <mid:12345678> a n:NarrativeInterpretationEventMessage ;
+> <mid:12345678> a n:StoryEventMessage ;
 >     dc:hasPart <cid:metadata>,
 >         <cid:part1>,
 >         <cid:part2>,
@@ -42,7 +42,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > @prefix n: <http://narratology.org/#> .
 > @prefix ex: <http://example.org/#> .
 >  
-> <ex:event123> a n:NarrativeInterpretionEvent ;
+> <ex:event123> a n:StoryEvent ;
 >     n:causesPatch <cid:part2>,
 >         <cid:part3>,
 >         <cid:part4>,
@@ -64,17 +64,6 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > 
 > Content-ID: <part3>
 > Content-Type: text/ldpatch
-> Content-Description: Scene Layer
-> 
-> @prefix n: <http://narratology.org/#> .
-> @prefix ex: <http://example.org/#> .
->  
-> Remove { <ex:scene114> n:contains <ex:prop126> . }
-> 
-> --boundary-example
-> 
-> Content-ID: <part4>
-> Content-Type: text/ldpatch
 > Content-Description: Props Layer
 > 
 > @prefix n: <http://narratology.org/#> .
@@ -84,9 +73,9 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > 
 > --boundary-example
 > 
-> Content-ID: <part5>
+> Content-ID: <part4>
 > Content-Type: text/ldpatch
-> Content-Description: Intrapersonal Character Modeling Layer
+> Content-Description: Character Modeling Layer (States and Traits)
 > 
 > @prefix n: <http://narratology.org/#> .
 > @prefix ex: <http://example.org/#> .
@@ -96,13 +85,22 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > 
 > --boundary-example
 > 
-> Content-ID: <part6>
+> Content-ID: <part5>
 > Content-Type: text/ldpatch
-> Content-Description: Interpersonal Social Modeling Layer
+> Content-Description: Intrapersonal Character Modeling Layer (Emotions and Moods)
 > 
 > @prefix n: <http://narratology.org/#> .
 > @prefix ex: <http://example.org/#> .
 >  
+> --boundary-example
+> 
+> Content-ID: <part6>
+> Content-Type: text/ldpatch
+> Content-Description: Interpersonal Modeling Layer (Social Dynamics)
+> 
+> @prefix n: <http://narratology.org/#> .
+> @prefix ex: <http://example.org/#> .
+> 
 > --boundary-example--
 > ```
 > </details>
