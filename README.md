@@ -66,7 +66,10 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > @prefix n: <http://narratology.org/#> .
 > @prefix ex: <http://example.org/#> .
 >  
-> Add { ex:event123 n:causedBy ex:action29 . }
+> Add {
+>     ex:char6 n:performed ex:action29 .
+>     ex:event123 n:causedBy ex:action29 .
+> }
 > 
 > --boundary-example
 > 
