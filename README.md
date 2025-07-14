@@ -155,6 +155,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 * [Constructivism](https://en.wikipedia.org/wiki/Constructivism_(psychological_school))
 * [Event](https://en.wikipedia.org/wiki/Event_(philosophy))
 * [Goal](https://en.wikipedia.org/wiki/Goal)
+* [Intention](https://en.wikipedia.org/wiki/Intention)
 * [Narrative](https://en.wikipedia.org/wiki/Narrative)
 * [Process](https://en.wikipedia.org/wiki/Process)
 * [Process Philosophy](https://en.wikipedia.org/wiki/Process_philosophy)
