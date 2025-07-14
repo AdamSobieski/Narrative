@@ -107,7 +107,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > ```
 > </details>
 
-## Inferences During Reading
+### Inferences During Reading Comprehension
 
 > [!TIP]
 > The following table is from Graesser, Singer, and Trabasso (1994) and presents 13 classes of inferences which do not exhaust all of the potential inferences during [comprehension](https://en.wikipedia.org/wiki/Reading_comprehension) but, instead, provide an initial foundation for discussing the [constructivist theory](https://en.wikipedia.org/wiki/Constructivism_(psychological_school)).
