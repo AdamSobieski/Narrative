@@ -120,8 +120,8 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > @prefix n: <http://narratology.org/#> .
 > @prefix ex: <http://example.org/#> .
 >
-> Remove { ex:char6 n:hasState ex:Hungry . }
-> Add { ex:char6 n:hasState ex:Satiated . }
+> Remove { ex:char6 n:feels ex:Hungry . }
+> Add { ex:char6 n:feels ex:Satiated . }
 > 
 > --boundary-example
 >
