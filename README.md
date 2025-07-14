@@ -109,34 +109,43 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 
 ## Inferences During Reading
 
-The following table is from Graesser, Singer, and Trabasso (1994) and presents 13 classes of inferences which do not exhaust all of the potential inferences during [comprehension](https://en.wikipedia.org/wiki/Reading_comprehension) but, instead, provide an initial foundation for discussing the [constructivist theory](https://en.wikipedia.org/wiki/Constructivism_(psychological_school)).
+> [!TIP]
+> The following table is from Graesser, Singer, and Trabasso (1994) and presents 13 classes of inferences which do not exhaust all of the potential inferences during [comprehension](https://en.wikipedia.org/wiki/Reading_comprehension) but, instead, provide an initial foundation for discussing the [constructivist theory](https://en.wikipedia.org/wiki/Constructivism_(psychological_school)).
+> <details open>
+> <summary>Click here to toggle the display of this table.</summary>
+> <br>
+> 
+> | Type of Inference | Brief Description |
+> |-------------------|-------------------|
+> | Referential | A word or phrase is referentially tied to a previous element or constituent in the text (implicit or inferred) |
+> | Case Structure Role Assignment | An explicit noun phrase is assigned to a particular case structure role, e.g., agent, recipient, object, location, time |
+> | Causal Antecedent | The inference is on a causal chain (bridge) between the current explicit action, event, or state and the previous passage context |
+> | Superordinate Goal | The inference is a goal that motivates an agent's intentional action |
+> | Thematic | This is a main point or moral of the text |
+> | Character Emotional Reaction | The inference is an emotion experienced by a character, caused by or in response to an event or action |
+> | Causal Consequence | The inference is on a forecasted causal chain, including physical events and new plans of agents (excluding character emotions) |
+> | Instantiation of Noun Category | The inference is a subcategory or a piarcular exemplar that instantiates an explicit noun or an implicit case role that is required by the verb |
+> | Instrument | The inference is an object, part of the body, or resource used when an agent executes an intentional action |
+> | Subordinate Goal Action | The inference is a goal, plan, or action that specifies how an agent's action is achieved |
+> | State | The inference is an ongoing state, from the time frame of the text, that is not causally related to the story plot. The states include an agent's traits, knowledge, and beliefs; the properties of objects and concepts; and the spatial locations of entities |
+> | Emotion of Reader | The inference is the emotion that the reader experiences when reading a text |
+> | Author's Intent | The inference is the author's attitude or motive in writing |
+> </details>
 
-| Type of Inference | Brief Description |
-|-------------------|-------------------|
-| Referential | A word or phrase is referentially tied to a previous element or constituent in the text (implicit or inferred) |
-| Case Structure Role Assignment | An explicit noun phrase is assigned to a particular case structure role, e.g., agent, recipient, object, location, time |
-| Causal Antecedent | The inference is on a causal chain (bridge) between the current explicit action, event, or state and the previous passage context |
-| Superordinate Goal | The inference is a goal that motivates an agent's intentional action |
-| Thematic | This is a main point or moral of the text |
-| Character Emotional Reaction | The inference is an emotion experienced by a character, caused by or in response to an event or action |
-| Causal Consequence | The inference is on a forecasted causal chain, including physical events and new plans of agents (excluding character emotions) |
-| Instantiation of Noun Category | The inference is a subcategory or a piarcular exemplar that instantiates an explicit noun or an implicit case role that is required by the verb |
-| Instrument | The inference is an object, part of the body, or resource used when an agent executes an intentional action |
-| Subordinate Goal Action | The inference is a goal, plan, or action that specifies how an agent's action is achieved |
-| State | The inference is an ongoing state, from the time frame of the text, that is not causally related to the story plot. The states include an agent's traits, knowledge, and beliefs; the properties of objects and concepts; and the spatial locations of entities |
-| Emotion of Reader | The inference is the emotion that the reader experiences when reading a text |
-| Author's Intent | The inference is the author's attitude or motive in writing |
-
-The following table, also from Graesser, Singer, and Trabasso (1994), presents six production rules of the constructivist theory which model the process of explanation and establishing global coherence.
-
-| Production Rule | Conditions | Succinct Description of Cognitive Process | Elaborated Description of Cognitive Processes |
-|:---------------:|------------|-------------------------------------------|-----------------------------------------------|
-| A | Explicit statement in the discourse focus is an intentional action (A) or goal (G) of a character | Explain why the character performed action A or has goal G | <ol><li>Search information sources in WM and LTM for plausible superordinate goals of A or G.</li><li>Increase the activation of superordinate goals in WM to the extent that (a) they are in multiple information sources and (b) they are compatible with the constraints of WM content that meet fomr threshold of activation.</li></ol> |
-| B | Explicit statement in the discourse focus is an intentional action (A), a goal (G), or an event (E) | Explain why the character performed action A, why the character has goal G, or why event E occurred | <ol><li>Search information sources in WM and LTM for plausible causal antecedents of A, G, or E.</li><li>increase the activation of the causal antecedents in WM to the extent that (a) they are in multiple information sources and (b) they are compatible with the constraints of WM content that meet some threshold of activation.</li></ol> |
-| C | Any explicit statement (S) in the discouse focus | Explain why the writer mentions S | <ol><li>Search text genre schemas in LTM that would accomodate S.</li><li>Increase the activation of the genre schema to the extent that it is compatible with the constraints of S and with WM content that meets some threshold of activation.</li></ol> |
-| D | Explicit statement in the discourse focus is an intentional action (A) or an event (E) | Track the emotional reactions of characters | <ol><li>Search information sources in WM and LTM for salient emotional reactions of characters to A or E.</li><li>Increase the activation of the emotional reactions in WM to the extent that (a) they are in multiple information sources and (b) they are compatible with the constraints of WM content that meet some threshold of activation.</li></ol> |
-| E | WM contains a particular configuration (C) of goals, actions, events, emotions, and/or states that meet some threshold of activation | Create global structures | <ol><li>Search for information sources in LTM that match configuration C.</li><li>Increase the activation of the information source in WM to the extent that it is compatible with the constraints of WM content that meet some activation threshold.</li></ol> |
-| F | An implicit statement or structure in WM meets some activation structure | Construct inferences that receive high activation in WM | The implicit statement structure is constructed as an inference in the situation model. |
+> [!TIP]
+> The following table, also from Graesser, Singer, and Trabasso (1994), presents six production rules of the constructivist theory which model the process of explanation and establishing global coherence.
+> <details open>
+> <summary>Click here to toggle the display of this table.</summary>
+> <br>
+> 
+> | Production Rule | Conditions | Succinct Description of Cognitive Process | Elaborated Description of Cognitive Processes |
+> |:---------------:|------------|-------------------------------------------|-----------------------------------------------|
+> | A | Explicit statement in the discourse focus is an intentional action (A) or goal (G) of a character | Explain why the character performed action A or has goal G | <ol><li>Search information sources in WM and LTM for plausible superordinate goals of A or G.</li><li>Increase the activation of superordinate goals in WM to the extent that (a) they are in multiple information sources and (b) they are compatible with the constraints of WM content that meet fomr threshold of activation.</li></ol> |
+> | B | Explicit statement in the discourse focus is an intentional action (A), a goal (G), or an event (E) | Explain why the character performed action A, why the character has goal G, or why event E occurred | <ol><li>Search information sources in WM and LTM for plausible causal antecedents of A, G, or E.</li><li>increase the activation of the causal antecedents in WM to the extent that (a) they are in multiple information sources and (b) they are compatible with the constraints of WM content that meet some threshold of activation.</li></ol> |
+> | C | Any explicit statement (S) in the discouse focus | Explain why the writer mentions S | <ol><li>Search text genre schemas in LTM that would accomodate S.</li><li>Increase the activation of the genre schema to the extent that it is compatible with the constraints of S and with WM content that meets some threshold of activation.</li></ol> |
+> | D | Explicit statement in the discourse focus is an intentional action (A) or an event (E) | Track the emotional reactions of characters | <ol><li>Search information sources in WM and LTM for salient emotional reactions of characters to A or E.</li><li>Increase the activation of the emotional reactions in WM to the extent that (a) they are in multiple information sources and (b) they are compatible with the constraints of WM content that meet some threshold of activation.</li></ol> |
+> | E | WM contains a particular configuration (C) of goals, actions, events, emotions, and/or states that meet some threshold of activation | Create global structures | <ol><li>Search for information sources in LTM that match configuration C.</li><li>Increase the activation of the information source in WM to the extent that it is compatible with the constraints of WM content that meet some activation threshold.</li></ol> |
+> | F | An implicit statement or structure in WM meets some activation structure | Construct inferences that receive high activation in WM | The implicit statement structure is constructed as an inference in the situation model. |
 
 ## See Also
 
