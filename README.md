@@ -114,6 +114,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 * [Change](https://en.wikipedia.org/wiki/Impermanence)
 * [Event](https://en.wikipedia.org/wiki/Event_(philosophy))
 * [Narrative](https://en.wikipedia.org/wiki/Narrative)
+* [Process Philosophy](https://en.wikipedia.org/wiki/Process_philosophy)
 
 ## Related Work
 
