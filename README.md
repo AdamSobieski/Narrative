@@ -31,7 +31,11 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 >         <cid:part3>,
 >         <cid:part4>,
 >         <cid:part5>,
->         <cid:part6> .
+>         <cid:part6>,  
+>         <cid:part7>,
+>         <cid:part8>,  
+>         <cid:part9>,
+>         <cid:part10> .
 >
 > --boundary-example
 > 
@@ -47,7 +51,11 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 >         <cid:part3>,
 >         <cid:part4>,
 >         <cid:part5>,
->         <cid:part6> .
+>         <cid:part6>,  
+>         <cid:part7>,
+>         <cid:part8>,  
+>         <cid:part9>,
+>         <cid:part10> .
 > 
 > --boundary-example
 > 
@@ -84,17 +92,53 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > Add { <ex:char6> n:hasState ex:Satiated . }
 > 
 > --boundary-example
-> 
+>
 > Content-ID: <part5>
+> Content-Type: text/ldpatch
+> Content-Description: Intrapersonal Character Modeling Layer (Beliefs)
+> 
+> @prefix n: <http://narratology.org/#> .
+> @prefix ex: <http://example.org/#> .
+>
+> --boundary-example
+>
+> Content-ID: <part6>
+> Content-Type: text/ldpatch
+> Content-Description: Intrapersonal Character Modeling Layer (Desires)
+> 
+> @prefix n: <http://narratology.org/#> .
+> @prefix ex: <http://example.org/#> .
+>
+> --boundary-example
+>
+> Content-ID: <part7>
+> Content-Type: text/ldpatch
+> Content-Description: Intrapersonal Character Modeling Layer (Intentions)
+> 
+> @prefix n: <http://narratology.org/#> .
+> @prefix ex: <http://example.org/#> .
+>
+> --boundary-example
+>
+> Content-ID: <part8>
 > Content-Type: text/ldpatch
 > Content-Description: Intrapersonal Character Modeling Layer (Emotions and Moods)
 > 
 > @prefix n: <http://narratology.org/#> .
 > @prefix ex: <http://example.org/#> .
->  
+>
+> --boundary-example
+>
+> Content-ID: <part9>
+> Content-Type: text/ldpatch
+> Content-Description: Intrapersonal Character Modeling Layer (Thoughts)
+> 
+> @prefix n: <http://narratology.org/#> .
+> @prefix ex: <http://example.org/#> .
+>
 > --boundary-example
 > 
-> Content-ID: <part6>
+> Content-ID: <part10>
 > Content-Type: text/ldpatch
 > Content-Description: Interpersonal Modeling Layer (Social Dynamics)
 > 
