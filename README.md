@@ -124,7 +124,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > | Thematic | This is a main point or moral of the text |
 > | Character Emotional Reaction | The inference is an emotion experienced by a character, caused by or in response to an event or action |
 > | Causal Consequence | The inference is on a forecasted causal chain, including physical events and new plans of agents (excluding character emotions) |
-> | Instantiation of Noun Category | The inference is a subcategory or a piarcular exemplar that instantiates an explicit noun or an implicit case role that is required by the verb |
+> | Instantiation of Noun Category | The inference is a subcategory or a particular exemplar that instantiates an explicit noun or an implicit case role that is required by the verb |
 > | Instrument | The inference is an object, part of the body, or resource used when an agent executes an intentional action |
 > | Subordinate Goal Action | The inference is a goal, plan, or action that specifies how an agent's action is achieved |
 > | State | The inference is an ongoing state, from the time frame of the text, that is not causally related to the story plot. The states include an agent's traits, knowledge, and beliefs; the properties of objects and concepts; and the spatial locations of entities |
