@@ -53,7 +53,7 @@ Inspired by the applicability of [Multipurpose Internet Mail Extensions (MIME)](
 > 
 > Content-ID: <part2>
 > Content-Type: text/ldpatch
-> Content-Description: Simple Causality Layer
+> Content-Description: Plot Layer
 > 
 > @prefix n: <http://narratology.org/#> .
 > @prefix ex: <http://example.org/#> .
